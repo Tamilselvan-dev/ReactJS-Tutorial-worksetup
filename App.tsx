@@ -10,7 +10,9 @@ import './style.css';
 // import Fcounter from './components/counter/Fcounter';
 // import BindingClass from './components/bindingEvent/BindingClass'
 // import BindingFunction from './components/bindingEvent/BindingFunction'
-import LifeCycle from './components/lifecycle/LifeCycle';
+// import LifeCycle from './components/lifecycle/LifeCycle';
+import HigherClass from './components/higherorderfunction/HigherClass';
+import HigherFunction from './components/higherorderfunction/HigherFunction';
 
 export default function App() {
   const name = 'Tamilselvan Velayudham props';
@@ -46,7 +48,11 @@ export default function App() {
       <BindingFunction /> */}
       {/* Counter */}
 
-      <LifeCycle />
+      {/* <LifeCycle /> */}
+
+<HigherClass />
+<HigherFunction />
+
     </div>
   );
 }
