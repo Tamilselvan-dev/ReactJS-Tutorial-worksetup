@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const HighOrder = Original => {
+const HighOrder =(Original) => {
 
   class NewComponent extends Component {
     constructor() {
@@ -17,7 +17,7 @@ const HighOrder = Original => {
     }
 
     render() {
-      return <Original count={this.state.count} increment={this.increment} />
+      return <Original count={this.state.count} increment={this.increment} {...this.props}/>
     }
   }
 

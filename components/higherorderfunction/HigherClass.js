@@ -6,8 +6,10 @@ class HigherClass extends Component {
     super();
   }
   render() {
+    console.log(this.props.name)
     return (
       <>  
+      <h1>{this.props.name}</h1>
     <button onClick={this.props.increment}>Clicked {this.props.count} Times</button>
     </>
     )

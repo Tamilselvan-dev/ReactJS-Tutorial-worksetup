@@ -11,8 +11,12 @@ import './style.css';
 // import BindingClass from './components/bindingEvent/BindingClass'
 // import BindingFunction from './components/bindingEvent/BindingFunction'
 // import LifeCycle from './components/lifecycle/LifeCycle';
-import HigherClass from './components/higherorderfunction/HigherClass';
-import HigherFunction from './components/higherorderfunction/HigherFunction';
+// import HigherClass from './components/higherorderfunction/HigherClass';
+// import HigherFunction from './components/higherorderfunction/HigherFunction';
+// import ContextClass from './components/context/ContextClass';
+// import ContexFunction from './components/context/ContextFunction';
+// import { UserProvider } from './components/context/UseContext';
+import ApiClass from './api/ApiClass';
 
 export default function App() {
   const name = 'Tamilselvan Velayudham props';
@@ -50,9 +54,15 @@ export default function App() {
 
       {/* <LifeCycle /> */}
 
-<HigherClass />
-<HigherFunction />
+      {/* <HigherClass name={'Tamilselvan'} />
+<HigherFunction name={'Tamilselvan'} /> */}
 
+      {/* <UserProvider value="Tamilselvan">
+        <ContextClass />
+        <ContexFunction />
+      </UserProvider> */}
+
+<ApiClass />
     </div>
   );
 }
